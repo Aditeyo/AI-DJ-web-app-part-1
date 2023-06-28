@@ -1,0 +1,23 @@
+#title {
+    background-color: indigo;
+    border-radius: 100px;
+    max-width: 200px;
+    color: gold;
+    box-shadow: goldenrod 100px;
+}
+
+#note {
+    background-color: indigo;
+    border-radius: 100px;
+    max-width: 200px;
+    color: gold;
+    box-shadow: goldenrod 100px;
+}
+
+#song_name {
+    background-color: indigo;
+    border-radius: 100px;
+    max-width: 200px;
+    color: gold;
+    box-shadow: goldenrod 100px;
+}
