@@ -1,5 +1,5 @@
-body{
-background-size:cover;
+body {
+    background-size: cover;
 }
 
 #title {
@@ -31,4 +31,28 @@ canvas {
     max-width: 200px;
     color: gold;
     box-shadow: goldenrod 100px;
+}
+
+#start {
+    background-image: "download (4).png";
+    background-size:contain;
+    border-radius:200px;
+    width:50px;
+    height:50px;
+}
+
+#pause {
+    background-image: "istockphoto-890158078-612x612.jpg";
+    background-size:contain;
+    border-radius:200px;
+    width:50px;
+    height:50px;
+}
+
+#stop {
+    background-image: "images.png";
+    background-size:contain;
+    border-radius:200px;
+    width:50px;
+    height:50px;
 }

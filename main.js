@@ -1,4 +1,8 @@
 var song="";
+var left_wrist_x=0;
+var left_wrist_y=0;
+var right_wrist_x=0;
+var right_wrist_y=0;
 
 function preload(){
 loadSound("pandora-140533.mp3");
@@ -14,4 +18,26 @@ image(video,20,-30,400,200);
 
 function draw(){
     
+}
+
+function modelLoaded(){
+
+}
+
+function gotPoses(){
+if (posenet>0){
+
+}
+}
+
+function play(){
+song.play()
+}
+
+function stop(){
+song.stop()
+}
+
+function pause(){
+song.pause();
 }
